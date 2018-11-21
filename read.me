@@ -16,3 +16,5 @@ insert into counter (value) values (0);
 
 + button increments the counter value and -button decrements the counter value.
 
+
+Note : I have implemented it using DB. but it is not an optimistic solution, we can also achieve shared counter by placing a counter value in a properties file. By externalizing application properties and configuring it by passing the path as an argument at runtime.
