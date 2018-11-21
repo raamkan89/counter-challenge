@@ -9,10 +9,17 @@ create table counter (id INT NOT NULL AUTO_INCREMENT,value INT NOT NULL,PRIMARY 
 Query to initiaze counter
 insert into counter (value) values (0);
 
-3. Build application using maven clean install.
-4. Run the spring boot application.
+3. please add "your" mysql datbase properties in application.properties file
+spring.datasource.url=jdbc:mysql://localhost:3306/counter
+spring.datasource.username=raamkan
+spring.datasource.password=Stillalone@2018
 
-5. http://localhost:8080/ check the counter value on the UI
+
+
+4. Build application using maven clean install.
+5. Run the spring boot application.
+
+6. http://localhost:8080/ check the counter value on the UI
 
 + button increments the counter value and -button decrements the counter value.
 
