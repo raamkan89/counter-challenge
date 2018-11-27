@@ -1,0 +1,42 @@
+.center{
+width: 150px;
+  margin: 40px auto;
+}
+
+#adding {
+	align : center;
+	position : fixed;
+	top : 125px; 
+	left : 550px;
+}
+#title {
+	left: 535px;
+	font-size: 50px;
+}
+#counter-data {
+	align : center;
+	position : fixed;
+	top : 125px; 
+	left : 606px;
+	width : 135px;
+	height : 37px;
+	border:1px solid;
+    border-top: double;
+    border-left: double;
+    border-right: double;
+    border-bottom: double;
+}
+
+#counter-value {
+	align : center;
+	position : relative;
+	top:9px;
+	left : 50px;
+	width : 135px;
+}
+#subtracting {
+	align : center;
+	position : fixed;
+	top: 125px;
+	left : 750px;
+}
